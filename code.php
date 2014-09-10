@@ -76,6 +76,7 @@
 
 <!-- Rows and Spans-->
 
+
 <div class="row" >
         <div class="span4">
           <h2>Username Based</h2>
@@ -88,10 +89,30 @@
        <div class="span4">
           <h2>Request</h2>
            <p>We know we are not perfect.  May it be a wrong special, a missing bar, whatever! We allow YOU the user to request these missing items to be added.</p>
-         
+ <!-- Rows and Spans END-->        
+ <!-- carousel -->  
        </div>
    <!-- Rows and Spans END-->
-   
+   <div id="this-carousel-id" class="carousel slide" >
+        <div class="carousel-inner">
+          <div class="item active">
+             <img style='margin-left:auto; margin-right:auto;' src="images/mizzou.jpeg" alt="Mizzou" />
+            
+            
+          </div>
+          <div class="item">
+              <img style='margin-left:auto; margin-right:auto;' src="images/oregon.jpeg" alt="Carina Caterpillar" />
+            
+          </div>
+          
+        </div><!-- .carousel-inner -->
+        <!--  next and previous controls here
+              href values must reference the id for this carousel -->
+          <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+      </div>
+<!-- END carousel -->
+
    <!-- Buttons-->
 <button class='btn btn-info' style='float:right; margin-right:10px; margin-bottom:10px;' id='upPic'>
    <!-- Buttons END-->
